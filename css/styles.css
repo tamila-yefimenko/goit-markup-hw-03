@@ -57,6 +57,9 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -235,15 +238,18 @@ padding: 120px 0;
     max-width: 264px;
 }
 
-.section-list {
-    display: flex;
-    /* padding: 120px 0; */
-    gap: 24px;
+.footer-section {
+    padding: 100px 0;
 }
 
-/* .section-photo-content { */
-    padding-top: 120px;
-    padding-bottom: 120px;
+.footer-container .link-logo {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.section-list {
+    display: flex;
+    gap: 24px;
 }
 
 .section-item {
@@ -297,11 +303,3 @@ padding: 120px 0;
     border-right: 1px solid #e7e9fc;
 }
 
-.container .footer-container {
-    padding: 100px 0;
-}
-
-.footer-container .link-logo {
-    margin-bottom: 16px;
-    display: inline-block;
-}
