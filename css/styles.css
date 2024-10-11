@@ -175,6 +175,10 @@ font-style: normal;
     background-color: #404BBF;
 }
 
+.section-part {
+padding: 120px 0;
+}
+
 .section-part .section-part-title {
     font-weight: 500;
     font-size: 20px;
@@ -233,11 +237,11 @@ font-style: normal;
 
 .section-list {
     display: flex;
-    padding: 120px 0;
+    /* padding: 120px 0; */
     gap: 24px;
 }
 
-.section-photo-content {
+/* .section-photo-content { */
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -273,7 +277,7 @@ font-style: normal;
     flex-wrap: wrap;
 }
 
-.section-portfolio {
+/* .section-portfolio { */
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -287,17 +291,14 @@ font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
 
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.container .footer-container {
+    padding: 100px 0;
 }
 
 .footer-container .link-logo {
